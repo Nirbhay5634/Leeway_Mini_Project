@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category"
+            android:title="Category" />
+
+        <item
+            android:id="@+id/nav_trending"
+            android:icon="@drawable/ic_recently"
+            android:title="Trending                        Soon" />
+
+    </group>
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_account"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_reply"
+                    android:title="Logout" />
+            </group>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share" />
+
+                <item
+                    android:id="@+id/nav_Rate_us"
+                    android:icon="@drawable/ic_rate_us"
+                    android:title="Rate us" />
+
+                <item
+                    android:id="@+id/nav_telegram"
+                    android:icon="@drawable/ic_contact_support"
+                    android:title="Telegram" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+</menu>

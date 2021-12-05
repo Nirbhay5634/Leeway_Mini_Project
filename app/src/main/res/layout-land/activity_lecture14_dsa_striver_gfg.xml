@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    tools:context=".GFGDsaStriver.Lecture14DsaStriverGFG">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/custm_input">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                app:showFullScreenButton="false"
+                app:showVideoCurrentTime="true"
+                app:showVideoDuration="true"
+                app:showYouTubeButton="false" />
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="100dp"
+                android:padding="15dp"
+                android:src="@drawable/ic_arrow_back" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GFGcp.CpGFG"
+    android:background="#ECECEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#00ECECEC">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_arrow_back" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_semibold"
+            android:padding="10dp"
+            android:text="Geeksforgeeks Competitive Programming"
+            android:textColor="#FF3D00"
+            android:textSize="20sp" />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2129093194399075/8737800685">
+        </com.google.android.gms.ads.AdView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FFC400"
+            android:onClick="lecture1">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(1)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#00E5FF"
+            android:onClick="lecture2">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(2)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FF3D00"
+            android:onClick="lecture3">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(3)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#2979FF"
+            android:onClick="lecture4">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(4)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#76FF03"
+            android:onClick="lecture5">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(5)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FF1744"
+            android:onClick="lecture6">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(6)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FFC400"
+            android:onClick="lecture7">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(7)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#00E5FF"
+            android:onClick="lecture8">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(8)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FF3D00"
+            android:onClick="lecture9">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(9)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#2979FF"
+            android:onClick="lecture10">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(10)"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FFC400"
+            android:onClick="lecture11">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(11)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#00E5FF"
+            android:onClick="lecture12">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(12)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FF3D00"
+            android:onClick="lecture13">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(13)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#2979FF"
+            android:onClick="lecture14">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(14)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#76FF03"
+            android:onClick="lecture15">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(15)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FF1744"
+            android:onClick="lecture16">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(16)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FFC400"
+            android:onClick="lecture17">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(17)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#00E5FF"
+            android:onClick="lecture18">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(18)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FF3D00"
+            android:onClick="lecture19">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(19)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#2979FF"
+            android:onClick="lecture20">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(20)"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FFC400"
+            android:onClick="lecture21">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(21)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#00E5FF"
+            android:onClick="lecture22">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(22)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#FF3D00"
+            android:onClick="lecture23">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(23)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input"
+            android:backgroundTint="#2979FF"
+            android:onClick="lecture24">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cp_gfg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/baloo"
+                android:padding="10dp"
+                android:text="Lecture(24)"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

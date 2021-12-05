@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    tools:context=".GFGDsaStriver.Lecture1DsaStriverGFG">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#00ECECEC">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_arrow_back" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:padding="10dp"
+            android:text="GFG DSA for working professionals 1"
+            android:textColor="#3D5AFE"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/custm_input">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:showFullScreenButton="false"
+                    app:showVideoCurrentTime="true"
+                    app:showVideoDuration="true"
+                    app:showYouTubeButton="false" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="Note- To see in Full Screen Mode enable auto rotate."
+            android:textColor="#FF9100"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="Course Description"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/baloo"
+            android:text="A LIVE classroom program designed for SDEs looking to switch to top product-based companies. Mentored by industry experts and complimentary DSA course content made by the CEO, practice questions, doubt assistance, contests and more!"
+            android:textColor="#8ABF5E"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

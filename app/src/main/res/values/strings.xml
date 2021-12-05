@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Leeway</string>
+
+    <string name="navigation_drawer_open">Open navigation Drawer</string>
+    <string name="navigation_drawer_close">Close navigation Drawer</string>
+
+    <!--  General Strings  -->
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="customer_heading">Grow\nYour Learning</string>
+    <string name="tag_line">We will help you to grow your learning using provide free courses.</string>
+    <string name="create_account">Create Account</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="forget_password_detail">Provide your account\'s Phone no for which you want to reset your password!</string>
+    <string name="make_selection_detail">Select which account detail should we use to reset your password?</string>
+    <string name="new_credentials_detail">Your Identity has been verified!\nSet your new password</string>
+    <string name="password_updated_success_message">Your password has been updated!</string>
+
+</resources>

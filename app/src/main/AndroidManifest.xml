@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leeway.freecourses">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/Theme.FreeCourses"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.leeway.freecourses.Agreement.TermsAndConditions"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.Agreement.PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture14DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture13DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture12DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture11DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture10DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture9DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture8DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture7DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture6DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture5DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture4DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture3DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture2DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.Lecture1DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGDsaStriver.DsaStriverGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture10JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture9JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture8JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture7JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture6JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture5JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture4JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture3JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture2JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.Lecture1JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaAppDev.JavaAppDevGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture24CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture23CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture22CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture21CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture20CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture19CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture18CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture17CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture16CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture15CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture14CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture13CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture12CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture9CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture11CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture10CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture8CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture7CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture6CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture5CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture4CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture3CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture2CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.Lecture1CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture15JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture14JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture13JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture12JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture11JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.ForgetPassword.Forget_Verify_OTP"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.ForgetPassword.ForgetPasswordSuccessMessage"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.ForgetPassword.SetNewPassword"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.ForgetPassword.MakeSelection"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.SignUp.VerifyOTP"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.SignUp.SignUp2ndClass"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.UserDashboard.UserDashboard"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.leeway.freecourses.GFGcp.CpGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture10JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture9JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture8JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture7JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture6JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture5JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture4JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture3JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture2JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.Lecture1JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture12AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture11AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture10AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture9AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture8AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture7AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture6AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture5AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture4AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture3AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture2AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGAndroidStudio.Lecture1AndroidStudioGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.GFGJavaBackend.JavaBackendGFG"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.SplashScreen.InsideLauncher"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.SplashScreen.LauncherActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.leeway.freecourses.Categories.Category"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.ForgetPassword.ForgotPassActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.leeway.freecourses.MainScreen.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.Login.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.leeway.freecourses.Authentication.SignUp.SignUpActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2129093194399075~9770437482" />
+    </application>
+
+</manifest>
